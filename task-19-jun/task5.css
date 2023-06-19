@@ -1,0 +1,27 @@
+body{
+    background-color:antiquewhite;
+    
+}
+ 
+    
+  
+.fp,.tp{
+    border: 1px solid;
+    background-color: white;
+      
+}
+
+
+#sp{
+    border: 2px dashed black;
+    background-color: white;
+    
+}
+.pr{
+    border: 2px dashed red;
+    
+}
+
+.Ra,.rz{
+    color: #ad26ad;
+}
