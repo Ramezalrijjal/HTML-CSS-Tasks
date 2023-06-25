@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+<style>
+  .ab  {
+  width: 200px;
+  height: 150px;
+  background-color: green;
+  position: relative;
+  left: 350px;
+  animation-name: anitimtion;
+  animation-duration: 7s;
+  transition-timing-function: ease-out;
+  
+}
+
+@keyframes anitimtion {
+  0%   {background-image: linear-gradient(green,greenyellow );; left:500px; top:0px;}
+  20%  {background-image: linear-gradient(skyblue,blue ); left:500px; top:500px;}
+  40%  { background-image: linear-gradient(yellow,blue ); left:0; top:500px;}
+  60%  {  background-color:yellow; left:0; top:0;}
+  80% { background-image: linear-gradient(brown,green ); left:300px; top:0px;}
+  100%  { background-image: linear-gradient(green,green );top:0px; }
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <h1>animation</h1>
+    <div class="ab"></div>
+</body>
+</html>
